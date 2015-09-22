@@ -14,6 +14,8 @@
 </head>
 <body>
 	<div class="container">
+		<h3>Employee Information</h3>
+		<hr/>
 		<table class="table table-hover">
 			<thead>
 				<td>EMPNO</td>
