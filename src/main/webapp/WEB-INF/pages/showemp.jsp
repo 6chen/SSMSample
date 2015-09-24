@@ -30,8 +30,8 @@
 			<tbody>
 				<c:forEach varStatus="i" var="emp" items="${empList}">
 					<tr>
-						<td>${emp.empNum}</td>
-						<td>${emp.empNm}</td>
+						<td>${emp.empNo}</td>
+						<td>${emp.eName}</td>
 						<td>${emp.job}</td>
 						<td>${emp.mgr}</td>
 						<td>${emp.hireDate}</td>

@@ -9,29 +9,29 @@ import java.util.Date;
  */
 @Component
 public class Employee {
-    private int empNum;
-    private String empNm;
+    private Long empNo;
+    private String eName;
     private String job;
-    private int mgr;
+    private Long mgr;
     private Date hireDate;
     private int sal;
     private int comm;
     private int deptNo;
 
-    public int getEmpNum() {
-        return empNum;
+    public Long getEmpNo() {
+        return empNo;
     }
 
-    public void setEmpNum(int empNum) {
-        this.empNum = empNum;
+    public void setEmpNo(Long empNo) {
+        this.empNo = empNo;
     }
 
-    public String getEmpNm() {
-        return empNm;
+    public String geteName() {
+        return eName;
     }
 
-    public void setEmpNm(String empNm) {
-        this.empNm = empNm;
+    public void seteName(String eName) {
+        this.eName = eName;
     }
 
     public String getJob() {
@@ -42,11 +42,11 @@ public class Employee {
         this.job = job;
     }
 
-    public int getMgr() {
+    public Long getMgr() {
         return mgr;
     }
 
-    public void setMgr(int mgr) {
+    public void setMgr(Long mgr) {
         this.mgr = mgr;
     }
 
@@ -85,8 +85,8 @@ public class Employee {
     @Override
     public String toString() {
         return "Employee{" +
-                "empNum=" + empNum +
-                ", empNm='" + empNm + '\'' +
+                "empNo=" + empNo +
+                ", eName='" + eName + '\'' +
                 ", job='" + job + '\'' +
                 ", mgr=" + mgr +
                 ", hireDate=" + hireDate +

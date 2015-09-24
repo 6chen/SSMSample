@@ -14,6 +14,8 @@
 </head>
 <body>
 	<div class="container">
+		<h3>Employee Information</h3>
+		<hr/>
 		<table class="table table-hover">
 			<thead>
 				<td>EMPNO</td>
@@ -28,8 +30,8 @@
 			<tbody>
 				<c:forEach varStatus="i" var="emp" items="${empList}">
 					<tr>
-						<td>${emp.empNum}</td>
-						<td>${emp.empNm}</td>
+						<td>${emp.empNo}</td>
+						<td>${emp.eName}</td>
 						<td>${emp.job}</td>
 						<td>${emp.mgr}</td>
 						<td>${emp.hireDate}</td>
